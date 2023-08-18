@@ -20,6 +20,6 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:\Projects\dariel\mentoring\spring-microservices-in-action\licensing-service-config
+          uri: https://github.com/anelefunani/licensing-service-config
           username: {GIT_USERNAME}
           password: {GIT_PASSWORD}
