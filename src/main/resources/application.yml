@@ -21,5 +21,7 @@ spring:
       server:
         git:
           uri: https://github.com/anelefunani/licensing-service-config
+          basedir: target/config
+          default-label: master
           username: {GIT_USERNAME}
           password: {GIT_PASSWORD}
