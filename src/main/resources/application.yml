@@ -1,6 +1,23 @@
+server:
+  port: 8888
+
+management:
+  endpoints:
+    web:
+      base-path: "/admin"
+      exposure:
+        include: "*"
+  endpoint:
+    env:
+      post:
+        enabled: true
+logging:
+  level:
+    org.springframework.cloud: 'DEBUG'
+
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/anelefunani/licensing-service-config
+          uri: file:///D:\Projects\dariel\mentoring\spring-microservices-in-action\licensing-service-config
