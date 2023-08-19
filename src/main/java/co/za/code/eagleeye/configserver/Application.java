@@ -10,7 +10,6 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class Application {
 
     public static void main(String[] args) {
-        System.out.println("Application running...");
         SpringApplication.run(Application.class);
     }
 }
