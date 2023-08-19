@@ -20,6 +20,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com:anelefunani/licensing-service-config.git
+          uri: https://github.com/anelefunani/licensing-service-config.git
           basedir: target/config
           default-label: master
