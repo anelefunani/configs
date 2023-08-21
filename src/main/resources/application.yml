@@ -23,5 +23,5 @@ spring:
       server:
         git:
           uri: https://github.com/anelefunani/licensing-service-config.git
-          search-paths: config-server/config
+          search-paths: config
           default-label: master
