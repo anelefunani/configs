@@ -16,10 +16,12 @@ logging:
     org.springframework.cloud: 'DEBUG'
 
 spring:
+  application:
+    name: config-server
   cloud:
     config:
       server:
         git:
           uri: https://github.com/anelefunani/licensing-service-config.git
-          basedir: target/config
+          search-paths: config-server/config
           default-label: master
