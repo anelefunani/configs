@@ -1,4 +1,0 @@
-INSERT INTO licenses (license_id,  organization_id, license_type, product_name, license_max, license_allocated) VALUES ('bbc48624-8466-4f40-a827-463b55cc83d4', '63cf7efd-a5c3-4ba1-b20f-9dede7d0f2b9', 'user','customer-crm-co', 100,5);
-INSERT INTO licenses (license_id,  organization_id, license_type, product_name, license_max, license_allocated) VALUES ('084a201f-5340-4e55-ac62-b2cc08a911c2', '63cf7efd-a5c3-4ba1-b20f-9dede7d0f2b9', 'user','suitability-plus', 200,189);
-INSERT INTO licenses (license_id,  organization_id, license_type, product_name, license_max, license_allocated) VALUES ('4774bb9f-2f75-4298-b475-6591721fd009', '4f37d97d-fec5-41e0-befd-69a031770787', 'user','HR-PowerSuite', 100,4);
-INSERT INTO licenses (license_id,  organization_id, license_type, product_name, license_max, license_allocated) VALUES ('d133fcb2-a418-45ee-b933-50aa89ede787', '4f37d97d-fec5-41e0-befd-69a031770787', 'core-prod','WildCat Application Gateway', 16,16);
